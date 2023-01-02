@@ -1,0 +1,30 @@
+@media screen and (max-width:1200px) {
+    .btm {
+        height: 200px;
+    }  
+}
+
+@media screen and (max-width:992px) {
+    .btm {
+        height: 350px;
+    }   
+}
+
+@media screen and (max-width:768px) {
+
+}  
+
+@media screen and (max-width:594px) {
+    .btm {
+        height: 530px;
+    }
+}  
+
+@media screen and (max-width:576px) {
+    .btm {
+        min-width:576px    
+    }
+
+}
+
+

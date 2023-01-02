@@ -1,0 +1,281 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 249, 244);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* common  */
+
+.case {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.container {
+    width: 1200px;   
+}
+
+.gradient_blue {
+    background: linear-gradient(90deg, #409cf7, #006dda); 
+}
+
+.gradient_green {
+    background: linear-gradient(90deg, #00c174, #3be38f); 
+}
+
+.gradient_turquoise {
+    background: linear-gradient(-75deg, rgba(69,255,203,1) 0%, rgba(16,205,149,1) 30%, rgba(16,196,182,1) 60%, rgba(0,212,255,1) 100%); 
+}
+
+.gradient_bp {
+    background: linear-gradient(135deg, rgba(69,188,255,0.7) 0%, rgba(31,124,251,0.7) 30%, rgba(42, 102, 255, 0.7) 60%, rgba(69, 125, 255, 0.7) 100%); 
+}
+
+
+/* menu */
+
+.menu {
+    height: 80px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+}
+
+.menu_objects {
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;  
+    color: white;
+}
+
+.menu ul li a {
+    padding: 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #0f4c88;
+    border-radius: 5px;
+}    
+
+.logo {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+/* info_block */
+
+.info_block{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_title {
+    margin: 0;
+}
+
+.info_text {
+    max-width: 900px;
+}
+
+i.ib {
+    padding: 10px 30px;
+}
+
+/* info 2 */
+.awesome {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.aws_title {
+    margin: 0px 0px 20px;
+}
+.aws_line {
+    margin: 0 auto;
+    height: 3px;
+    width: 200px;
+    background-color: black;
+}
+.aws_text {
+    margin: 30px 0px;
+}
+.aws_items {
+    margin-top: 50px;
+    display: flex;
+}
+.aws_item {
+    width: 300px;
+    padding: 0px 15px 0px;
+}
+
+/* documents */
+.documents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.docum {
+    padding: 30px;
+}
+
+.doc_text {
+    width: 600px;
+}
+
+.ahrefs {
+    display: flex;
+    flex-direction: column;
+}
+
+.brands{
+    padding: 30px 0px;
+}
+
+/* statistic */
+
+.statistic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.statistic_object {
+    width: 168.5px;
+    margin: 15px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+  
+i.image {
+    font-size: 50px;
+}
+.number {
+    padding: 5px;
+}
+.text {
+    margin-bottom: 10px;
+}
+.line {
+    height: 3px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+/* contacts */
+
+.team {
+    width: 900px;
+}
+
+.team_block {
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team_contacts {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.team_title {
+    margin: 20px 0px;
+}
+
+.team_line {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.team_text {
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.team_item {
+    background-color: rgb(156, 255, 219);
+    box-shadow: 0px 2px 4px 0px rgba(0,1,1,0.2);
+    width: 210px;
+    height: 28z0px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.team_item_img {
+    margin: 10px 0px 10px 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.team_item_title {
+    margin: 0px;
+}
+
+.team_item_text {
+    margin: 0px;
+}
+
+.team_item_link {
+    padding: 20px 5px 20px 5px;
+}
+
+
+/* futter */
+.futter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.futter ul {
+    padding: 2px;
+    margin: 10px 50px;
+    width: 200px;
+}
+
+.futter ul li a {
+    text-decoration: none;
+    text-transform: uppercase;  
+    color: white;
+}
+
+.futter ul li a:hover {
+    text-decoration: underline;
+}    

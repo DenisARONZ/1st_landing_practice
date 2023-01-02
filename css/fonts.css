@@ -1,0 +1,143 @@
+.menu {
+    font-family: "Proxima Nova Lt";
+}
+
+.menu li a {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Proxima Nova Cn Rg";
+}
+
+p {
+    font-family: "Proxima Nova Lt";
+}
+
+.logo {
+    font-size: 50px;
+    color: rgb(226, 254, 255);
+}
+
+.number {
+    font-size: 40px;
+    color: white;
+    font-family: "Proxima Nova Lt";
+}
+
+.text {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(221, 255, 218);
+    font-family: "Proxima Nova Lt";
+}
+
+i.image {
+    color: rgb(221, 255, 218);
+}
+
+.line {
+    background-color: rgb(221, 255, 218);
+}
+
+.statistic {
+    font-family: "Proxima Nova Lt";
+    color: white;
+    font-size: 10px;
+}
+
+.info_title {
+    font-size: 40px;
+}
+
+.info_text {
+    font-size: 20px;
+}
+
+.doc_text {
+    font-size: 20px;
+}
+
+i.ib {
+    color: #409cf7;
+    font-size: 65px;
+}
+
+i.doc_icon {
+    color: #409cf7;
+    font-size: 200px;
+}
+
+a.brands {
+    font-size: 50px;
+    color: #409cf7;
+    text-decoration: none;
+}
+
+.futter {
+    font-family: "Proxima Nova Lt";
+    color: white;
+    font-size: 10px;    
+}
+
+.team {
+    font-family: "Proxima Nova Lt";
+}
+
+.team_block {
+    text-align: center;
+}
+
+.team_title {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+}
+
+.team_text{
+    font-size: 20px;
+    color: white;
+}
+
+.team_item {
+    text-align: center;
+}
+
+.team_item_text {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.team_item_link {
+    color: #409cf7;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.awesome {
+    font-family: "Proxima Nova Lt";
+    text-align: center;
+}
+
+.aws_title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+}
+
+.aws_text {
+    font-size: 20px;
+}
+
+.aws_items_icon {
+    color: #409cf7;
+    font-size: 65px;
+}
+.aws_items_title {
+    font-size: 17px;
+}
+.aws_items_text {
+    font-size: 15px;
+}
